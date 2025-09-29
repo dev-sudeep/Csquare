@@ -21,7 +21,7 @@ It is not a new language, but a **smart header-only library (`csquare.h`)** that
   Mix high-level macros with normal C whenever you need.  
   Drop to inline ASM for performance-critical code.
 
-- 🔹 **Raylib integration**  
+- 🔹 **Raylib integration**  (Planning to add in the future)
   (Optional) `smotion.h` wrapper brings Scratch-style motion & graphics using Raylib.
 
 ---
@@ -42,7 +42,7 @@ int main() {
 ## 🔑 License
 MIT License
 
-Copyright (c) 2024 
+Copyright (c) 2025 dev-sudeep
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
