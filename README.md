@@ -42,16 +42,13 @@ int main(){
     
     say("Starting Pygame window...\n");
     sm_init();
-    wait(0.5); // Increased delay for initialization
     
     say("Drawing shapes...\n");
     
-    // Draw multiple shapes
     sm_draw("circle", "(255, 0, 0), (400, 300), 50");  // Red circle
     sm_draw("rect", "(0, 255, 0), pygame.Rect(200, 200, 100, 100)");  // Green square
     sm_draw("line", "(0, 0, 255), (100, 100), (700, 500), 5");  // Blue line with thickness 5
     
-    // Keep window open
     say("Shapes drawn. Window will close in 10 seconds...\n");
     wait(10);
     
