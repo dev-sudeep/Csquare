@@ -33,3 +33,13 @@ else
         echo "# <<< auto-include <<<"
     } >> "$CFG"
 fi
+
+echo "Enter the command for python3 (default: python3): "
+read -r PYTHON_CMD
+PYTHON_CMD=${PYTHON_CMD:-python3}
+echo "Using python command: $PYTHON_CMD"
+echo "Upgrading pip and installing pygame using $PYTHON_CMD ..."
+$PYTHON_CMD -m pip install --upgrade pip
+$PYTHON_CMD -m pip install pygame
+
+echo "✅ Setup complete! Please restart your terminal or run 'source $CFG' to apply changes."

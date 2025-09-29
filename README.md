@@ -21,8 +21,8 @@ It is not a new language, but a **smart header-only library (`csquare.h`)** that
   Mix high-level macros with normal C whenever you need.  
   Drop to inline ASM for performance-critical code.
 
-- 🔹 **Raylib integration**  (Planning to add in the future)
-  (Optional) `smotion.h` wrapper brings Scratch-style motion & graphics using Raylib.
+- 🔹 **PyGame grphics integration**  
+  (Optional) `smotion.h` wrapper brings Scratch-style motion & graphics using the power of InPy and the PyGame library
 
 ---
 
