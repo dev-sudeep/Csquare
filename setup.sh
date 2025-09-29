@@ -13,7 +13,7 @@ fi
 
 # Generate include flags
 flags=""
-for dir in $(find ./include -type d); do
+for dir in $(find ./include -type f); do
     abs=$(realpath "$dir")
     flags="$flags -I$abs"
 done
