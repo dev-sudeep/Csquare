@@ -4,4 +4,6 @@
 #include "include/scratch.h"
 #include "include/inpy.h"
 #include "include/smotion.h"
+#include "include/coop.h"
+#include "include/CS_mcrs.h"
 #endif // CSQUARE_H

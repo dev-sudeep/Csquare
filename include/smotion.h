@@ -2,18 +2,23 @@
 #include "scratch.h"
 #include <stdio.h>
 
+#define SM_WINDOWED "" 
+#define SM_FULLSCREEN ", pygame.FULLSCREEN"
+#define SM_SCALE "pygame.SCALED"
+
 FILE* messages_py;
 FILE* srvdrawer;
 
-void sm_init() {
-    const char *py_code =
+void sm_init(int x, int y, const char* title, char* mode) {
+    char *py_code = malloc(4096);
+    sprintf(py_code, 
 "import pygame\n"
 "import time\n"
 "import os\n"
 "\n"
 "pygame.init()\n"
-"screen = pygame.display.set_mode((800, 600))\n"
-"pygame.display.set_caption(\"Python Command Window\")\n"
+"screen = pygame.display.set_mode((%d, %d)%s)\n"
+"pygame.display.set_caption(\"%s\")\n"
 "\n"
 "# Store shapes to be drawn\n"
 "draw_commands = []\n"
@@ -50,7 +55,7 @@ void sm_init() {
 "    pygame.display.flip()\n"
 "    time.sleep(0.05)\n"
 "\n"
-"pygame.quit()\n";
+"pygame.quit()\n", x, y, mode == NULL ? SM_WINDOWED : mode, title == NULL ? "Csquare Pygame Window" : title);
 
     /// Open files safely
     messages_py = fopen("msgqueue.py", "w+");
