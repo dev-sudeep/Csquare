@@ -18,8 +18,7 @@ It is not a new language, but a **smart header-only library** (`csquare.h`) that
   Syntax feels like pseudocode. Great for beginners and rapid prototyping.
 
 - 🔹 **Hybrid control**  
-  Mix high-level macros with normal C whenever you need.  
-  Drop to inline ASM for performance-critical code.
+  Mix high-level macros with normal C whenever you need.
 
 - 🔹 **PyGame grphics integration**  
   (Optional) `smotion.h` wrapper brings Scratch-style motion & graphics using the power of InPy and the PyGame library
