@@ -1,4 +1,5 @@
-# Csquare (C²)
+# Csquare (C²) 
+<img width="64" height="64" alt="image" src="https://github.com/user-attachments/assets/3b0ed665-dce3-4762-bcb8-3f2a2a7105d7" />
 
 **Csquare (C²)** is a super-hybrid programming toolkit that makes **C as simple as Scratch**, as **readable as Python**, and still as **blazingly fast and minimal as C**.  
 
