@@ -10,7 +10,7 @@ It is not a new language, but a **smart header-only library** (`csquare.h`) that
 ## ✨ Features
 
 - 🔹 **Scratch-like simplicity**  
-  Use macros like `repeat(n) { … }`, `forever { … }` to code like Scratch.
+  Use macros like `repeat(n) { … }`, `forever { … }` to code easily.
 
 - 🔹 **C-level speed**  
   Compiles down to **pure C**, no interpreter, no VM. Efficient and lightweight.
@@ -22,7 +22,7 @@ It is not a new language, but a **smart header-only library** (`csquare.h`) that
   Mix high-level macros with normal C whenever you need.
 
 - 🔹 **PyGame grphics integration**  
-  (Optional) `smotion.h` wrapper brings Scratch-style motion & graphics using the power of InPy and the PyGame library
+  (Optional) `smotion.h` wrapper brings motion & graphics using the power of InPy and the PyGame library
 
 ---
 
